@@ -1,0 +1,35 @@
+.tabeltabel{
+    background-image: url("bgtabel.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+@font-face {
+    font-family: "cutenote";
+    src: url("Cute\ Notes.ttf")
+}
+
+.h2tabel{
+    font-family: "cutenote";
+    background-color: rgb(7, 88, 61);
+    width: 900px;
+    height: 90px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 35pt;
+
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.h2tabel {
+    text-align: center;
+}

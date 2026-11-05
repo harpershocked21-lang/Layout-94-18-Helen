@@ -1,0 +1,817 @@
+.biobio{
+    background-image: url("backgroundbiodata.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+div.biodata{
+    margin: 30px auto;
+    width: 70%;
+    background-color: cadetblue;
+    color: azure;
+    padding: 30px;
+    border-radius: 12px;
+}
+
+.biobiooo{
+    background-color: aliceblue;
+    color:rgb(38, 77, 79);
+    text-align: center;
+    font-family: 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.headerbiox{
+    background-color: aliceblue;
+    color:rgb(25, 120, 123);
+    text-align: center;
+    align-items: center;
+    width: 450px;
+    height: 80px;
+    border-radius: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+}
+
+div.foto{
+    position: relative;
+    width: 300px;
+    height: 250px;
+    overflow: hidden;
+    border-radius: 15px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid azure;
+}
+
+div.foto img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    transition: transform 0.5s ease, opacity 0.5s ease;
+}
+
+.foto img.top{
+    opacity: 1;
+    z-index: 2;
+}
+
+.foto:hover img.top{
+    opacity: 0;
+    transform: scale(1.1);
+}
+
+.foto img.bottom{
+    opacity: 0;
+    z-index: 1;
+}
+
+.foto:hover img.bottom{
+    opacity: 1;
+    transform: scale(1.1);
+}
+
+div.isi{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h3{
+    background-color: aliceblue;
+    color:rgb(25, 120, 123);
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* hobi */
+.konten{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+}
+
+div.gambar{
+    position: relative;
+    width: 220px;
+    height: 220px;
+    overflow: hidden;
+    border-radius: 15px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 4px solid azure;}
+
+div.gambar img{
+    height: 220px;
+    width: 220px;
+    position: absolute;
+    object-fit: cover;
+    object-position: center;
+    transition: transform 0.5s ease, opacity 0.5s ease;
+    border-radius: 15px;
+}
+
+/* foto gambar */
+.gambar img.uno{
+    opacity: 1;
+    z-index: 2;
+}
+
+.gambar:hover img.uno{
+    opacity: 0;
+    transform: scale(1.1);
+}
+
+.gambar img.dos{
+    opacity: 0;
+    z-index: 1;
+}
+
+.gambar:hover img.dos{
+    opacity: 1;
+    transform: scale(1.1);
+}
+
+/* hobi musik */
+div.gambarmusik{
+    position: relative;
+    width: 220px;
+    height: 220px;
+    overflow: hidden;
+    border-radius: 15px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 4px solid azure;}
+
+div.gambarmusik img{
+height: 220px;
+width: 220px;
+position: absolute;
+object-fit: cover;
+object-position: center;
+transition: transform 0.5s ease, opacity 0.5s ease;
+border-radius: 15px;
+}
+
+/* foto musik */
+.gambarmusik img.satu{
+    opacity: 1;
+    z-index: 2;
+}
+
+.gambarmusik:hover img.satu{
+    opacity: 0;
+    transform: scale(1.1);
+}
+
+.gambar img.dua{
+    opacity: 0;
+    z-index: 1;
+}
+
+.gambar:hover img.dua{
+    opacity: 1;
+    transform: scale(1.1);
+}
+
+div.gambarnulis{
+    position: relative;
+    width: 220px;
+    height: 220px;
+    overflow: hidden;
+    border-radius: 15px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 4px solid azure;}
+
+div.gambarnulis img{
+height: 220px;
+width: 220px;
+position: absolute;
+object-fit: cover;
+object-position: center;
+transition: transform 0.5s ease, opacity 0.5s ease;
+border-radius: 15px;
+}
+/* foto nulis */
+.gambarnulis img.yi{
+    opacity: 1;
+    z-index: 2;
+}
+
+.gambarnulis:hover img.yi{
+    opacity: 0;
+    transform: scale(1.1);
+}
+.gambarnulis img.er{
+    opacity: 0;
+    z-index: 1;
+}
+
+.gambarnulis:hover img.er{
+    opacity: 1;
+    transform: scale(1.1);
+}
+
+/* film favorit */
+.koonten{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 10pt;
+    color: azure;
+}
+
+div.koonten img{
+    height: 300px;
+    width: 300px;
+    border-radius: 15px;
+    align-items: center;
+    border: 2px solid azure;
+}
+
+
+div.anime{
+    height: 320px;
+    width: 300px;
+    border-radius: 15px;
+    background-color: cadetblue;
+    border: 4px solid azure;
+    text-align: center;
+    padding: 12px;
+}
+
+div.anime img{
+    height: 220px;
+    width: 280px;
+    border-radius:15px;
+}
+div.anime:hover{
+    height: 360px;
+    width: 340px;
+    background-color: cadetblue;
+    box-shadow: 4px 4px 3px rgb(25, 120, 123);
+}
+
+div.film{
+    height: 320px;
+    width: 300px;
+    border-radius: 15px;
+    background-color: cadetblue;
+    text-align: center;
+    border: 4px solid azure;
+    padding: 12px;
+}
+
+div.film img{
+    height: 220px;
+    width: 280px;
+    border-radius: 15px;
+}
+div.film:hover{
+    height: 360px;
+    width: 340px;
+    background-color: cadetblue;
+    box-shadow: 4px 4px 3px rgb(25, 120, 123);
+}
+
+div.kartun{
+    height: 320px;
+    width: 300px;
+    border-radius: 15px;
+    background-color: cadetblue;
+    text-align: center;
+    border: 4px solid azure;
+    padding: 12px;
+}
+
+div.kartun img{
+    height: 220px;
+    width: 280px;
+    border-radius: 15px;
+}
+div.kartun:hover{
+    height: 360px;
+    width: 340px;
+    background-color: cadetblue;
+    box-shadow: 4px 4px 3px rgb(25, 120, 123);
+}
+
+                            /* foto band */
+
+.kontenn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 10pt;
+    color: azure;
+}
+
+div.mcr{
+    position: relative;
+    width: 220px;
+    height: 220px;
+    overflow: hidden;
+    border-radius: 15px;
+    background-color: cadetblue;
+    align-content: bottom;
+    cursor: pointer;
+    display: flex;
+    align-items: top;
+    justify-content: center;
+    border: 5px solid azure;}
+
+
+
+div.mcr img{
+    height: 220px;
+    width: 220px;
+    position: absolute;
+    object-fit: cover;
+    object-position: center;
+    transition: transform 0.5s ease, opacity 0.5s ease;
+    border-radius: 15px;
+    border: 2px solid azure;
+
+    
+}
+
+
+.mcr img.my{
+    opacity: 1;
+    z-index: 2;
+}
+
+.mcr:hover img.my{
+    opacity: 0;
+    transform: scale(1.1);
+}
+
+.mcr img.chemical{
+    opacity: 0;
+    z-index: 1;
+}
+
+.mcr:hover img.chemical{
+    opacity: 1;
+    transform: scale(1.1);
+}
+
+div.paramore{
+    position: relative;
+    width: 220px;
+    height: 220px;
+    overflow: hidden;
+    border-radius: 15px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    border: 5px solid azure;;
+    background-color: cadetblue;
+    align-items: top;
+}
+
+div.paramore img{
+    height: 220px;
+    width: 220px;
+    position: absolute;
+    object-fit: cover;
+    object-position: center;
+    transition: transform 0.5s ease, opacity 0.5s ease;
+    border-radius: 15px;
+    border: 2px solid azure;
+}
+
+.paramore img.para{
+    opacity: 1;
+    z-index: 2;
+}
+
+.paramore:hover img.para{
+    opacity: 0;
+    transform: scale(1.1);
+}
+
+.paramore img.more{
+    opacity: 0;
+    z-index: 1;
+}
+
+.paramore:hover img.more{
+    opacity: 1;
+    transform: scale(1.1);
+}
+
+div.sum41{
+    position: relative;
+    width: 220px;
+    height: 220px;
+    overflow: hidden;
+    border-radius: 15px;
+    cursor: pointer;
+    display: flex;
+    background-color: cadetblue;
+    align-items: top;
+    justify-content: center;
+    border: 5px solid azure;}
+
+div.sum41 img{
+    height: 220px;
+    width: 220px;
+    position: absolute;
+    object-fit: cover;
+    object-position: center;
+    transition: transform 0.5s ease, opacity 0.5s ease;
+    border-radius: 15px;
+    border: 2px solid azure;
+}
+
+.sum41 img.sum{
+    opacity: 1;
+    z-index: 2;
+}
+
+.sum41:hover img.sum{
+    opacity: 0;
+    transform: scale(1.1);
+}
+
+.sum41 img.empat{
+    opacity: 0;
+    z-index: 1;
+}
+
+.sum41:hover img.empat{
+    opacity: 1;
+    transform: scale(1.1);
+}
+
+div.beachbunny{
+    position: relative;
+    width: 220px;
+    height: 220px;
+    overflow: hidden;
+    border-radius: 15px;
+    cursor: pointer;
+    display: flex;
+    background-color: cadetblue;
+    align-items: top;
+    justify-content: center;
+    border: 5px solid azure;}
+
+div.beachbunny img{
+    height: 220px;
+    width: 220px;
+    position: absolute;
+    object-fit: cover;
+    object-position: center;
+    transition: transform 0.5s ease, opacity 0.5s ease;
+    border-radius: 15px;
+    border: 2px solid azure;
+}
+
+.beachbunny img.beach{
+    opacity: 1;
+    z-index: 2;
+}
+
+.beachbunny:hover img.beach{
+    opacity: 0;
+    transform: scale(1.1);
+}
+
+.beachbunny img.bunny{
+    opacity: 0;
+    z-index: 1;
+}
+
+.beachbunny:hover img.bunny{
+    opacity: 1;
+    transform: scale(1.1);
+}
+
+.contents{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 10pt;
+    color: azure;
+}
+
+div.yama{
+    height: 290px;
+    width: 260px;
+    border-radius: 15px;
+    background-color: azure;
+    text-align: center;
+    border: 4px solid rgb(25, 120, 123);
+    padding: 12px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+div.yama img{
+    height: 220px;
+    width: 220px;
+    border-radius: 15px;
+}
+div.yama:hover{
+    height: 320px;
+    width: 300px;
+    background-color: cadetblue;
+    box-shadow: 4px 4px 3px rgb(25, 120, 123);
+}
+
+div.tsuki{
+    height: 290px;
+    width: 260px;
+    border-radius: 15px;
+    background-color: azure;
+    text-align: center;
+    border: 4px solid rgb(25, 120, 123);
+    padding: 12px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+div.tsuki img{
+    height: 220px;
+    width: 220px;
+    border-radius: 15px;
+}
+div.tsuki:hover{
+    height: 320px;
+    width: 300px;
+    background-color: cadetblue;
+    box-shadow: 4px 4px 3px rgb(25, 120, 123);
+}
+
+div.yuji{
+    height: 290px;
+    width: 260px;
+    border-radius: 15px;
+    background-color: azure;
+    text-align: center;
+    border: 4px solid rgb(25, 120, 123);
+    padding: 12px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+div.yuji img{
+    height: 220px;
+    width: 220px;
+    border-radius: 15px;
+}
+div.yuji:hover{
+    height: 320px;
+    width: 300px;
+    background-color: cadetblue;
+    box-shadow: 4px 4px 3px rgb(25, 120, 123);
+}
+
+
+.content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 10pt;
+    color: azure;
+}
+
+/* hewan */
+div.cat{
+    position: relative;
+    width: 220px;
+    height: 220px;
+    overflow: hidden;
+    border-radius: 15px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    border: 5px solid azure;;
+    background-color: cadetblue;
+    align-items: top;
+}
+
+div.cat img{
+    height: 220px;
+    width: 220px;
+    position: absolute;
+    object-fit: cover;
+    object-position: center;
+    transition: transform 0.5s ease, opacity 0.5s ease;
+    border-radius: 15px;
+    border: 2px solid azure;
+}
+
+.cat img.kucing{
+    opacity: 1;
+    z-index: 2;
+}
+
+.cat:hover img.kucing{
+    opacity: 0;
+    transform: scale(1.1);
+}
+
+.cat img.cikung{
+    opacity: 0;
+    z-index: 1;
+}
+
+.cat:hover img.cikung{
+    opacity: 1;
+    transform: scale(1.1);
+}
+
+div.chameleon{
+    position: relative;
+    width: 220px;
+    height: 220px;
+    overflow: hidden;
+    border-radius: 15px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    border: 5px solid azure;;
+    background-color: cadetblue;
+
+    align-items: top;
+}
+
+div.chameleon img{
+    height: 220px;
+    width: 220px;
+    position: absolute;
+    object-fit: cover;
+    object-position: center;
+    transition: transform 0.5s ease, opacity 0.5s ease;
+    border-radius: 15px;
+    border: 2px solid azure;
+}
+
+.chameleon img.bung{
+    opacity: 1;
+    z-index: 2;
+}
+
+.chameleon:hover img.bung{
+    opacity: 0;
+    transform: scale(1.1);
+}
+
+.chameleon img.lon{
+    opacity: 0;
+    z-index: 1;
+}
+
+.chameleon:hover img.lon{
+    opacity: 1;
+    transform: scale(1.1);
+}
+
+div.borzoi{
+    position: relative;
+    width: 220px;
+    height: 220px;
+    overflow: hidden;
+    border-radius: 15px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    border: 5px solid azure;;
+    background-color: cadetblue;
+    align-items: top;
+}
+
+div.borzoi img{
+    height: 220px;
+    width: 220px;
+    position: absolute;
+    object-fit: cover;
+    object-position: center;
+    transition: transform 0.5s ease, opacity 0.5s ease;
+    border-radius: 15px;
+    border: 2px solid azure;
+}
+
+.borzoi img.bor{
+    opacity: 1;
+    z-index: 2;
+}
+
+.borzoi:hover img.bor{
+    opacity: 0;
+    transform: scale(1.1);
+}
+
+.borzoi img.zoi{
+    opacity: 0;
+    z-index: 1;
+}
+
+.borzoi:hover img.zoi{
+    opacity: 1;
+    transform: scale(1.1);
+}
+
+div.konnten{
+    margin: 30px auto;
+    width: 70%;
+    color: azure;
+    padding: 30px;
+    border-radius: 12px;
+}
+
+
+div.isikonn{
+    background: azure;
+    color: rgb(25, 120, 123);
+    padding: 10px;
+    border-radius: 15px;
+    gap: 60px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+div.isikonn{
+    height: 370px;
+    width: 640x;
+    border-radius: 15px;
+    gap: 60px;
+    text-align: center;
+    font-size: 14px;
+    background-color: azure;
+    border: 4px solid rgb(25, 120, 123);
+    padding: 12px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+p.mcr{
+    opacity: 0%;
+}
+
+p.mcr:hover{
+    opacity: 100%;
+    color: azure;
+    font-size: 20pt;
+}
+
+p.paramore{
+    opacity: 0%;
+}
+
+p.paramore:hover{
+    opacity: 100%;
+    color: azure;
+    font-size: 20pt;
+}
+
+p.sum41{
+    opacity: 0%;
+}
+
+p.sum41:hover{
+    opacity: 100%;
+    color: azure;
+    font-size: 20pt;
+}
+
+p.beachbunny{
+    opacity: 0%;
+}
+
+p.beachbunny:hover{
+    opacity: 100%;
+    color: azure;
+    font-size: 20pt;
+}
+
+div.isikonn:hover{
+    height: 400px;
+    width: 640x;
+    text-align: center;
+    background-color: cadetblue;
+    box-shadow: 4px 4px 3px rgb(25, 120, 123);
+}
+
